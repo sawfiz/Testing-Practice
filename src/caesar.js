@@ -21,7 +21,5 @@ export const caesarCiper = (string, key) => {
       output += String.fromCharCode(string[i].charCodeAt(0) + key);
     }
   }
-
-  console.log('🚀 ~ file: caesar.js:10 ~ caesarCiper ~ output:', output);
   return output;
 };
